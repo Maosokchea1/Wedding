@@ -67,7 +67,7 @@ export default function FormalInvitation({ currentLang = 'km' }) {
         <div className="relative my-6 w-56 md:w-64 aspect-[3/4] rounded-t-full overflow-hidden border-3 border-[#d4af37] shadow-[0_15px_35px_rgba(220,130,155,0.28)] group bg-white p-1">
           <div className="w-full h-full rounded-t-full overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1000&auto=format&fit=crop"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUgjiGQ898q9bDAecO-OY0LuOQ8GKgQEQQ0pAeBHDJu-5O419Vl11gkDs&s=10"
               alt="The Royal Couple"
               className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
             />

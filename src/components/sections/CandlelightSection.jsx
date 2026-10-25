@@ -59,7 +59,7 @@ export default function CandlelightSection({ currentLang = 'km' }) {
       <div
         className="absolute inset-0 bg-cover bg-center transition-transform duration-1000"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=2000&auto=format&fit=crop')`,
+          backgroundImage: `url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcJvgyEKbVP4PEz18ZIeBU-_fRxWd74VxzHTiIesEX3ZBSqMfVv2IPw0M&s=10')`,
           filter: 'brightness(0.55) contrast(1.1) saturate(1.3)'
         }}
       />

@@ -22,7 +22,7 @@ export default function CoverHero({ currentLang = 'km' }) {
       <div
         className="absolute inset-0 bg-cover bg-center z-0 scale-102 transform transition-transform duration-1000"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=2000&auto=format&fit=crop')`,
+          backgroundImage: `url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8qnD9XURf_8U6Cst9XxgkU3dkv0Ab0dpswaDn-82xH_jh6R8cm-N3Xteu&s=10')`,
           filter: 'brightness(0.95) contrast(1.02) saturate(1.1)'
         }}
       />

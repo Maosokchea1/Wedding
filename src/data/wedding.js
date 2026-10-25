@@ -12,7 +12,7 @@ export const WEDDING_DATA = {
     englishName: "Rithy Sovann",
     shortKhmer: "រិទ្ធី",
     shortEnglish: "Rithy",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
+    avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8qnD9XURf_8U6Cst9XxgkU3dkv0Ab0dpswaDn-82xH_jh6R8cm-N3Xteu&s=10",
     parents: {
       father: "លោក ហេង រិទ្ធី",
       mother: "និងលោកស្រី គង់ សុខា"
@@ -25,7 +25,7 @@ export const WEDDING_DATA = {
     englishName: "Chariya Davy",
     shortKhmer: "ចរិយា",
     shortEnglish: "Chariya",
-    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=800&auto=format&fit=crop",
+    avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8qnD9XURf_8U6Cst9XxgkU3dkv0Ab0dpswaDn-82xH_jh6R8cm-N3Xteu&s=10",
     parents: {
       father: "លោក ជា ចរិយា",
       mother: "និងលោកស្រី អ៊ុំ សុវណ្ណារី"
@@ -103,7 +103,7 @@ export const WEDDING_DATA = {
       titleEn: "The First Meeting",
       captionKm: "និស្ស័យបាននាំផ្លូវឱ្យយើងជួបគ្នាដោយមិនបានព្រាងទុក",
       captionEn: "Destiny guided our paths to cross unexpectedly",
-      photo: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800&auto=format&fit=crop"
+      photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcJvgyEKbVP4PEz18ZIeBU-_fRxWd74VxzHTiIesEX3ZBSqMfVv2IPw0M&s=10"
     },
     {
       year: "២០២៣",
@@ -112,7 +112,7 @@ export const WEDDING_DATA = {
       titleEn: "A Promise Under the Stars",
       captionKm: "ចាប់ដៃគ្នាកាត់ឧបសគ្គ ដោយក្តីស្រឡាញ់ និងការយោគយល់",
       captionEn: "Walking hand in hand through every season of life",
-      photo: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=800&auto=format&fit=crop"
+      photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcJvgyEKbVP4PEz18ZIeBU-_fRxWd74VxzHTiIesEX3ZBSqMfVv2IPw0M&s=10"
     },
     {
       year: "២០២៦",
@@ -121,7 +121,7 @@ export const WEDDING_DATA = {
       titleEn: "Forever Begins Today",
       captionKm: "រួមចិត្ត រួមកាយ ជាគូជីវិតរហូតតរៀងទៅ",
       captionEn: "Two souls united together forever",
-      photo: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=800&auto=format&fit=crop"
+      photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcJvgyEKbVP4PEz18ZIeBU-_fRxWd74VxzHTiIesEX3ZBSqMfVv2IPw0M&s=10"
     }
   ],
 
@@ -130,37 +130,37 @@ export const WEDDING_DATA = {
     {
       id: 1,
       title: "Sweet Embrace",
-      url: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcJvgyEKbVP4PEz18ZIeBU-_fRxWd74VxzHTiIesEX3ZBSqMfVv2IPw0M&s=10",
       span: "row-span-2 col-span-1"
     },
     {
       id: 2,
       title: "Royal Romance",
-      url: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1000&auto=format&fit=crop",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcJvgyEKbVP4PEz18ZIeBU-_fRxWd74VxzHTiIesEX3ZBSqMfVv2IPw0M&s=10",
       span: "row-span-1 col-span-1"
     },
     {
       id: 3,
       title: "Golden Hour Smile",
-      url: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1000&auto=format&fit=crop",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcJvgyEKbVP4PEz18ZIeBU-_fRxWd74VxzHTiIesEX3ZBSqMfVv2IPw0M&s=10",
       span: "row-span-1 col-span-1"
     },
     {
       id: 4,
       title: "Everlasting Promise",
-      url: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?q=80&w=1000&auto=format&fit=crop",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcJvgyEKbVP4PEz18ZIeBU-_fRxWd74VxzHTiIesEX3ZBSqMfVv2IPw0M&s=10",
       span: "row-span-2 col-span-1"
     },
     {
       id: 5,
       title: "Traditional Grace",
-      url: "https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=1000&auto=format&fit=crop",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcJvgyEKbVP4PEz18ZIeBU-_fRxWd74VxzHTiIesEX3ZBSqMfVv2IPw0M&s=10",
       span: "row-span-1 col-span-1"
     },
     {
       id: 6,
       title: "Warm Embrace",
-      url: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=1000&auto=format&fit=crop",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcJvgyEKbVP4PEz18ZIeBU-_fRxWd74VxzHTiIesEX3ZBSqMfVv2IPw0M&s=10",
       span: "row-span-1 col-span-1"
     }
   ],
