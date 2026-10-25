@@ -1,0 +1,188 @@
+/* src/styles/globals.css */
+@layer base {
+  :root {
+    /* Soft Light Pink & Ivory Anime Wedding Palette (Pink ស្ដើង + មាស + ក្រែម) */
+    --color-bg-light: #fff5f8;
+    --color-bg-secondary: #fdebed;
+    --color-bg-card: #ffffff;
+    --color-paper-envelope: #fcdde4;
+    --color-paper-pocket: #f8c8d3;
+    --color-paper-flap: #fad1dc;
+    --color-card-cream: #ffffff;
+    --color-text-main: #4a2430;
+    --color-text-sub: #7a4655;
+    --color-gold-deep: #8f5f14;
+    --color-gold-mid: #c59728;
+    --color-gold-light: #fef1b8;
+    
+    --foil-gold: linear-gradient(135deg, #a8761a 0%, #e2be58 28%, #8f5f14 52%, #d6ab38 76%, #784c0a 100%);
+    --foil-sheen: linear-gradient(110deg, #b8860b 0%, #fff7d6 35%, #966710 65%, #f1cf6b 85%, #7a4e08 100%);
+    --foil-rose: linear-gradient(135deg, #d48293 0%, #fbe8ec 30%, #bd6175 60%, #f7d3db 85%, #9b3d52 100%);
+  }
+
+  body {
+    background-color: var(--color-bg-light);
+    color: var(--color-text-main);
+    font-family: 'Kantumruy Pro', sans-serif;
+    line-height: 1.8;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Typography Utility Classes */
+.font-moul {
+  font-family: 'Moul', serif;
+  letter-spacing: 0 !important;
+  line-height: 1.8;
+}
+
+.font-moulpali {
+  font-family: 'Moulpali', cursive;
+  letter-spacing: 0 !important;
+  line-height: 1.8;
+}
+
+.font-kantumruy {
+  font-family: 'Kantumruy Pro', sans-serif;
+  letter-spacing: 0;
+  line-height: 1.8;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font-pinyon {
+  font-family: 'Pinyon Script', cursive;
+}
+
+/* Khmer Typography & Foil Gold Text Safe Padding Rules */
+.gold-foil-text {
+  background: linear-gradient(135deg, #9e6d15 0%, #deb849 25%, #80500b 50%, #dcae32 75%, #6e4105 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  /* CRITICAL: Extra vertical padding prevents clipping of Khmer upper vowels (ី ឹ) and subscript consonants (្) */
+  padding-top: 0.35em;
+  padding-bottom: 0.25em;
+  line-height: 1.8;
+  letter-spacing: 0;
+  filter: drop-shadow(0 1px 1px rgba(255, 255, 255, 0.8));
+}
+
+.gold-foil-subtle {
+  background: linear-gradient(135deg, #a87a20 0%, #e8c766 35%, #8f5e10 70%, #d8ad3b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  padding-top: 0.3em;
+  padding-bottom: 0.2em;
+  line-height: 1.8;
+}
+
+/* Luxury Soft Pink & Gold Card Boxes */
+.pink-anime-card {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(224, 155, 172, 0.45);
+  box-shadow: 0 12px 35px -8px rgba(220, 130, 155, 0.22), 0 2px 6px rgba(212, 175, 55, 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.debossed-gold-box {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(212, 175, 55, 0.55);
+  box-shadow: 0 10px 30px -5px rgba(220, 130, 155, 0.2), inset 0 1px 2px rgba(255, 255, 255, 0.9);
+}
+
+.debossed-pink-box {
+  background: rgba(253, 237, 242, 0.85);
+  border: 1px solid rgba(220, 150, 170, 0.5);
+  box-shadow: inset 0 2px 4px rgba(210, 120, 140, 0.15), 0 4px 14px rgba(220, 140, 165, 0.15);
+}
+
+/* Realistic Tileable Paper Textures - Soft Light Pink (Pink ស្ដើង) */
+.texture-envelope-pink {
+  background-color: #fcdde4;
+  background-image: 
+    radial-gradient(ellipse at 50% 20%, rgba(255, 255, 255, 0.7) 0%, transparent 70%),
+    radial-gradient(circle at 80% 80%, rgba(212, 175, 55, 0.12) 0%, transparent 60%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.038'/%3E%3C/svg%3E");
+}
+
+.texture-card-cream {
+  background-color: #ffffff;
+  background-image: 
+    radial-gradient(ellipse at 50% 30%, rgba(255, 255, 255, 0.95) 0%, transparent 80%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='paperFibers'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23paperFibers)' opacity='0.025'/%3E%3C/svg%3E");
+}
+
+.texture-flap-lining-pink {
+  background-color: #fff4f7;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(212, 175, 55, 0.08) 0%, transparent 70%),
+    url("data:image/svg+xml,%3Csvg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d4af37' fill-opacity='0.16' fill-rule='evenodd'%3E%3Cpath d='M18 18L0 36h36L18 18zm0-18L0 18h36L18 0z'/%3E%3Ccircle cx='18' cy='18' r='3' fill='%23f0a0b2' fill-opacity='0.3'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* 3D Envelope Animation Utilities */
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.perspective-stage {
+  perspective: 1600px;
+}
+
+/* Scalloped Lotus Petal Edge Clip Paths (ក្បាច់ស្រទាប់ផ្កាឈូក) */
+.clip-scalloped-flap {
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    98% 30%,
+    90% 55%,
+    75% 80%,
+    50% 100%,
+    25% 80%,
+    10% 55%,
+    2% 30%
+  );
+}
+
+/* Floating Anime Sakura Keyframes */
+@keyframes floatPetal {
+  0% {
+    transform: translate(0, -10px) rotate(0deg) scale(0.9);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.85;
+  }
+  50% {
+    transform: translate(30px, 45vh) rotate(180deg) scale(1);
+    opacity: 0.9;
+  }
+  85% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-20px, 105vh) rotate(360deg) scale(0.95);
+    opacity: 0;
+  }
+}
+
+.animate-petal {
+  animation: floatPetal 11s linear infinite;
+}
+
+/* Hide scrollbars during modal & smooth transitions */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
